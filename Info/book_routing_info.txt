@@ -1,0 +1,27 @@
+# Book Routing Info
+
+The following are the routing info needed for the book route
+
+@method -- GET
+
+    @route - /api/books/
+    @desc - Returns info of the apps book routing protocols
+
+    @route - /api/books/getbooks/
+    @desc  - Returns a list of all books needed
+
+    @route - /api/books/getbooks/:id
+    @desc  - Returns details of a specifc book where id param signifies the specific book
+-----------------------------------------------------------------
+
+@method -- POST
+
+    @route - /api/books/borrow/
+    @desc - Returns info of the apps book routing protocols
+
+    @route - /api/books/getbooks/
+    @desc  - Returns a list of all books needed
+
+    @route - /api/books/getbooks/:id
+    @desc  - Returns details of a specifc book where id param signifies the specific book
+    
